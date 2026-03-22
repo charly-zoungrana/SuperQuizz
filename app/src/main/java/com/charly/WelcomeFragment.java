@@ -1,6 +1,8 @@
 package com.charly;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -64,7 +66,11 @@ public class WelcomeFragment extends Fragment {
 
             @Override
             public void onClick(View v) {
-                Log.d("Charly","Click!");
+                FragmentManager fragmentManager=getParentFragmentManager();
+                FragmentTransaction fragmentTransaction=fragmentManager.beginTransaction();
+                QuizFragment quizFragment=QuizFragment.newInstance();
+                fragmentTransaction.replace(R.id.fragment_container_view_tag,quizFragment);
+                fragmentTransaction.commit();
             }
         });
     }
