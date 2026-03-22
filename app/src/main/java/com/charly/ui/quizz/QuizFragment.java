@@ -1,4 +1,4 @@
-package com.charly;
+package com.charly.ui.quizz;
 
 import android.os.Bundle;
 

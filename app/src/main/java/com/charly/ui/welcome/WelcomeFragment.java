@@ -1,4 +1,4 @@
-package com.charly;
+package com.charly.ui.welcome;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -6,12 +6,13 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.charly.R;
 import com.charly.databinding.FragmentWelcomeBinding;
+import com.charly.ui.quizz.QuizFragment;
 
 public class WelcomeFragment extends Fragment {
 
