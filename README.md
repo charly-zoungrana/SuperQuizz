@@ -9,7 +9,7 @@
 
 *Une application de quiz interactive développée lors de la formation OpenClassrooms "Développez votre première application Android"*
 
-[📱 Voir la démo](#démonstration) • [🏗️ Architecture](#architecture) • [📚 Concepts appris](#concepts-appris) • [🚀 Installation](#installation)
+[📱 Démonstration](#-démonstration) • [🏗️ Architecture](#architecture) • [📚 Concepts appris](#-concepts-appris) • [🚀 Installation](#-installation)
 
 </div>
 
